@@ -29,8 +29,7 @@ public class SampleAutoAlignCommandPP extends CommandBase {
     @Getter private boolean isInitializing = true;
 
     public SampleAutoAlignCommandPP(
-            Follower follower,
-//            Vision vision,
+            Follower follower,//            Vision vision,
             Telemetry telemetry,
             AtomicReference<Double> turnServoSupplier,
             AtomicReference<Double> slideExtensionSupplier) {
